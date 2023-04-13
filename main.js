@@ -4,7 +4,8 @@ createApp({
     data() {
         return {
             apiUrl: 'server.php',
-            todos: []
+            todos: [],
+            newToDo: ''
             /*todos: [
                 {
                     "text": "HTML",
