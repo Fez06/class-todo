@@ -29,7 +29,7 @@
                     <input v-model="newToDo" type="text" class="text-newtodo" id="newtodo" placeholder="Inserisci elemento...">
                 </div>
                 <div class="d-inline-block">
-                    <button class="button-newtodo">Inserisci</button>
+                    <button class="button-newtodo" @click.prevent="addToDo">Inserisci</button>
                 </div>
             </form>
         </div>
