@@ -44,3 +44,8 @@ function editTodo($todo_list, $params) {
 
     return $todo_list;
 }
+
+//funzione per salvare la stringa json
+function saveFile($file, $data){
+    file_put_contents($file, $data);
+}
